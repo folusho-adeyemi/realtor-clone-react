@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import {Link} from 'react-router-dom';
-import {AiFillEyeInvisible, AiFillEye} from 'react-icons/ai';
 import OAuth from '../components/OAuth';
 export default function ForgotPassword() {
   const [email, setEmail] = useState("");
